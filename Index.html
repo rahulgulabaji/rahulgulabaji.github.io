@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
   <header>
@@ -13,8 +15,8 @@
     </nav>
   </header>
   <div>
-    <h1>Rahul S Gulabaji</h1>
-    <img src="Rahul.png" alt="brand logo" height="100px">
+    <h1><a href="Index.html">Rahul S Gulabaji</a></h1>
+    <img src="Rahul.png" alt="profile pic" height="100px">
     <hr>
   </div>
   <section>
@@ -32,7 +34,17 @@
       <li>Studying</li>
     </ul>
   </section>
-  <footer>
+  <table border="black">
+    <tr>
+    <th colspan="3">PROJECTS</th>
+  </tr>
+  <tr>
+    <td><a href="/project1">Project 1</a></td>
+    <td><a href="/project2">Project 2</a></td>
+    <td><a href="/project3">Project 3<a 3</td>
+  </tr>
+  </table>
+  <section>
     <h2>Contacts</h2>
     <ul>
       <li><a href="https://www.linkedin.com/in/rahul-gulabaji-2416182b4/"><b>LinkedIn</b></a></li>
@@ -40,6 +52,18 @@
       <li><a href="Index.html"><b>Portfolio</b></a></li>
     </ul>
     <p> Rahul Gulabaji&copy; & Rahul Gulabaji&reg;</p>
+  </section>
+  <footer>
+    <label for="email" >Email</label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <label for="num" >Phone Number</label>
+    <input type="number" name="ph" id="num" maxlength="10" required>
+    <br>
+    <label for="message">Message</label>
+    <textarea placeholder="Enter your message" id="message" value="message"></textarea>
+    <br>
   </footer>
+  
 </body>
 </html>
