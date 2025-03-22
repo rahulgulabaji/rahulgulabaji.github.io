@@ -60,24 +60,20 @@ nav {
     align-items: center;
     padding: 20px 20px;
     width: 70px;
+    transition: background-color 0.6s ease-in-out;
+}
+#navbar ul li:hover   {
+    background-color:#10105b;
 }
 
 #navbar ul li a {
     text-decoration: none;
     color: #f5deb3;
-    transition: color 0.3s ease;
 }
 
 #navbar ul  :hover{
     cursor: pointer;
 }
-
-
-#navbar ul li:hover   {
-    background-color:#10105b;
-
-}
-
 
 .first {
     display: flex;
@@ -134,7 +130,7 @@ h2{
 }
 
 #social a img {
-    height: 40px;
+    height: 45px;
     transition: transform 0.3s ease;
 }
 
@@ -147,7 +143,7 @@ h2{
     max-width: 350px;
     border-radius: 50%;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform  1s ease-in-out,  box-shadow 0.6s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -249,7 +245,7 @@ h2{
         /* Ensure it takes the full width of the viewport */
     }
     #footer{
-        margin-top: 20px;
+        margin-top: 40px;
     }
     #right {
         justify-content:center;
@@ -373,7 +369,7 @@ h2{
     height: 200px;
     width: 350px;
     border: 3px solid ;
-    margin: 10px;
+    margin: 30px;
 }
 
 
@@ -409,6 +405,10 @@ h2{
     padding: 15px;
     transition: transform 0.3s ease;
 }
+#BE:hover{
+    background-color: #0d0d37;
+    transform: scale(1.02);
+}
 #course-deatils{
     padding-left: 15px;
 }
@@ -419,10 +419,7 @@ h2{
     width: 98%;
     border: 5px solid black;
 }
-#BE:hover{
-    background-color: #0d0d37;
-    transform: scale(1.02);
-}
+
 .section {
     display: none; /* Hide sections by default */
      /* Each section takes up the full height of the viewport */
@@ -465,7 +462,7 @@ h2{
     background-color:#040449;
     margin: 10px;
     border-radius: 25px;
-    transition: transform 0.3s ease;
+    transition: transform 0.6s ease;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,7 +473,9 @@ h2{
 }
 .skills-tab img{
     height: 50px;
+
 }
+
 
 /* Contact Section */
 #contact{
@@ -508,8 +507,13 @@ h2{
 
 #contact-box img{
     height: 50px;
+    transition: transform 0.3s ease;
     
 }
+#contact-box img:hover{
+    transform: scale(1.1);
+}
+
 #contact-social{
     display: flex;
     justify-content: space-evenly;
