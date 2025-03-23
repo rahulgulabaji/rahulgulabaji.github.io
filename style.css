@@ -135,7 +135,7 @@ h2{
 }
 
 #social a img:hover {
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 
 #profile-pic{
@@ -398,14 +398,13 @@ h2{
     max-width: 400px;
     background-color: #0f0f58;
     margin: 20px;
-    
     margin-block: 40px;
     color: white;
     padding: 15px;
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease-in-out, background-color 0.7s ease-in-out;
 }
 #BE:hover{
-    background-color: #0d0d37;
+    background-color: #0d0d72;
     transform: scale(1.02);
 }
 #course-deatils{
@@ -512,6 +511,7 @@ h2{
     border-radius: 40px;
 }
 #Contact-form div input{
+    color: wheat;
     border: none;
     outline: none;
     margin-block:10px;
@@ -526,8 +526,10 @@ h2{
 ::placeholder{
     font-size: 15px;
     font-weight:500;
+    color: #f5deb3;
 }
 textarea {
+    background-color:rgba(4, 4, 73, 0.482);
     border: none;
     padding: 10px;
     border-radius: 15px;
