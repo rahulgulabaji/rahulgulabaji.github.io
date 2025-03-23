@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header>
@@ -157,9 +158,19 @@
       <section id="contact" class="section">
         <div id="heading" class="about">
           <h3>Contact</h3>
-          <div id="line"></div>
+          <div id="line" ></div>
         </div>
-        <div id="contact-box"> 
+        <form id="Contact-form" class="contact" onsubmit="sendemail()" >
+          <div >
+            <h3>Get In Touch</h3>
+          <input id="name"  type="text" placeholder="Name" required>
+          <input  id="email" type="email"   placeholder="Email" required>
+          <input id="subject" type="text"  placeholder="Subject" required>
+          <textarea id="message" placeholder="Message" rows="4" required></textarea>
+          <button id="submit" type="submit" onclick="sendMail()">SUBMIT</button>
+          </div>
+        </form>
+        <div id="contact-box" class="contact"> 
           <h3>Social</h3>
           <div id="contact-social">
             <a href="mailto: rgulabaji@gmail.com" ><img src="icons/email.png" id="email" title="Email"></a>
@@ -182,6 +193,25 @@
     </footer>
   </main>
   <script src="script.js"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    function sendemail(){
+      Email.send({
+    Host : "s1.maildns.net",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(Email sent!!)
+);
+    }
+    
+  </script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed("#element",{

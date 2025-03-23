@@ -39,11 +39,3 @@ navLinks.forEach(link => {
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('home').classList.add('active');
 });
-
-var typed = new Typed("#element", {
-  strings: ["Student.", "Coder.", "Programmer."],
-  typeSpeed: 150,
-  backSpeed: 150,
-  loop: true,
-  loopDelay: 1000,
-});
