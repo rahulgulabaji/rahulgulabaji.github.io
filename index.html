@@ -160,7 +160,7 @@
           <h3>Contact</h3>
           <div id="line" ></div>
         </div>
-        <form id="Contact-form" class="contact" onsubmit="sendemail()" >
+        <form id="Contact-form" class="contact"  >
           <div >
             <h3>Get In Touch</h3>
           <input id="name"  type="text" placeholder="Name" required>
@@ -194,24 +194,7 @@
   </main>
   <script src="script.js"></script>
 
-  <script src="https://smtpjs.com/v3/smtp.js">
-  </script>
-  <script>
-    function sendemail(){
-      Email.send({
-    Host : "s1.maildns.net",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(Email sent!!)
-);
-    }
-    
-  </script>
+  
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed("#element",{
