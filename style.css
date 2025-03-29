@@ -6,7 +6,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    background-color: #0d0d37;
+    background-color: #131316;
     color: #f5deb3;
     line-height: 1.6;
     min-height: 100vh;
@@ -25,7 +25,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #12124f;
+    background-color: #1c1c21;
 }
 
 /* Navigation Styles */
@@ -63,7 +63,7 @@ nav {
     transition: background-color 0.4s ease-in-out;
 }
 #navbar ul li:hover   {
-    background-color:#10105b;
+    background-color:#393a41;
     cursor: pointer;
 }
 #navbar li a.active {
@@ -182,36 +182,41 @@ h1{
 
 /* Responsive Design for larger screens */
 @media (max-width: 1090px) {
-
+    
     #navbar ul{
         display:none;
         flex-direction: column;
         align-items: center;
         justify-content:space-evenly;
-        background-color: #12124f;
+        background-color: #1c1c21;
         position: absolute;
-        top: 50px;
+        top: 60px;
         left: 0;
         right: 0;
         height: 640px;
         
+        
     }
+    
     #navbar ul li{
-        width: 95%;
+        width: 97%;
         transition: color 0.1s ease-in-out;
         padding: 20px 10px;
        
     }
+    #navbar ul li:nth-child(6){
+        padding: 0;
+    }
     #resuem{
-        padding-block: 0px;
+        padding: 0px;
     }
     
     #resuem a{
-        padding-inline: 42%;
-        padding-block: 0px;
+        width: 100%;
+        text-align: center;
     }
     #navbar ul li:hover {
-        background-color:#10105b;
+        background-color:#393a41;
     }
     #navbar ul.active{
         display:flex;
@@ -221,7 +226,7 @@ h1{
     }
     #profile-pic {
         width: 100%;
-        max-width: 300px;
+      
         border-radius: 50%;
         display: block;
 
@@ -244,7 +249,7 @@ h1{
         display:flex;
     }
     #footer{
-        margin-top: 40px;
+        margin-top: 122px;
     }
     #right {
         justify-content:center;
@@ -285,7 +290,7 @@ h1{
     margin: 10px;
 }
 .about{
-    background-color:#040449;
+    background-color:#26262c;
     border-radius: 20px;
 
 }
@@ -357,7 +362,7 @@ h1{
 .project-box{
     width: 100%;
     height: 100%;
-    background-color:#040449;
+    background-color:#26262c;
     display: flex;
     justify-content: space-evenly;
     align-content: space-evenly;
@@ -384,7 +389,7 @@ h1{
 .Eduaction-box{
     width: 100%;
     height: 100%;
-    background-color:#040449;
+    background-color:#26262c;
     display: flex;
     justify-content:center;
     align-content: space-evenly;
@@ -395,16 +400,16 @@ h1{
     height: 100%;
     width: 100%;
     max-width: 400px;
-    background-color: #0f0f58;
+    background-color: #26262c;
+    border: 5px solid #393a41;
     margin: 20px;
-    margin-block: 40px;
-    color: white;
+    margin-block: 40px; 
     padding: 15px;
     transition: transform 0.7s ease-in-out, background-color 0.7s ease-in-out;
 }
 #BE:hover{
-    background-color: #0d0d72;
-    transform: scale(1.02);
+    background-color: #393a41;
+    transform: scale(1.01);
 }
 #course-deatils{
     padding-left: 15px;
@@ -440,7 +445,7 @@ h1{
 #skills-box{
     
     border-radius: 20px;
-    background-color: #040449;
+    background-color: #26262c;;
     width: 100%;
     height: 100%;
     
@@ -455,7 +460,7 @@ h1{
 .skills-tab{
     width: 110px;
     height: 110px;
-    background-color:#040449;
+    background-color:#2f3037;
     margin: 10px;
     border-radius: 25px;
     transition: transform 0.6s ease;
@@ -469,7 +474,7 @@ h1{
     color: white;
 }
 .skills-tab:hover{
-    background-color:#0d0d72;
+    background-color:#393a41;
     transform: scale(1.07);
 }
 .skills-tab img{
@@ -488,7 +493,7 @@ h1{
 #Contact-form{
     width: 100%;
     height: 100%;
-    background-color:#040449;
+    background-color:#26262c;
     border-radius: 20px;
     margin-block: 20px;
     display: flex;
@@ -499,7 +504,7 @@ h1{
 
 #Contact-form h3{
     text-align: center;
-    background-color:hsl(240, 70%, 22%);;
+    background-color:#26262c;
 }
 #Contact-form >div{
     width:500px;
@@ -508,29 +513,35 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:hwb(240 4% 40% / 0.288);
+    background-color:#;
     border-radius: 40px;
 }
 #Contact-form div input{
     color: wheat;
-    border: none;
+    border: #1c1c21;
     outline: none;
     margin-block:10px;
     padding: 15px;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     border-radius: 40px;
-    background-color: rgba(4, 4, 73, 0.482);
+    background-color: #393a41;
     
 }
+#Contact-form div input:hover,
+#Contact-form div input:focus{
+    border:0.5px solid  wheat;
+}
+
 ::placeholder{
     font-size: 15px;
     font-weight:500;
     color: #f5deb3;
+    padding: px;
 }
 textarea {
-    background-color:rgba(4, 4, 73, 0.482);
+    background-color:#393a41;
     border: none;
     padding: 10px;
     border-radius: 15px;
@@ -539,29 +550,28 @@ textarea {
     margin-top: 10px;
     width: 100%;
 }
+textarea:hover,
+textarea :focus{
+    border:0.5px solid  wheat;
+}
 #submit{
     padding: 17px 40px;
     border-radius: 50px;
     cursor: pointer;
     border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    background-color: #6a6b70;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-size: 15px;
-    transition: all 0.5s ease;
+    font-size: 17px;
+    font-weight: 700;
     margin:20px;
+    color: #f5deb3;
 }
-#submit :hover{
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
-}
+
 #contact-box{
     width: 100%;
     height: 100%;
-    background-color:#040449;
+    background-color:#26262c;
     border-radius: 20px;
     padding-top: 15px;
     
