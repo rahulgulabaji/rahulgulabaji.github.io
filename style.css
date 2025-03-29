@@ -523,7 +523,7 @@ h1{
     margin-block:10px;
     padding: 15px;
     width: 100%;
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
     border-radius: 40px;
     background-color: #393a41;
@@ -532,6 +532,7 @@ h1{
 #Contact-form div input:hover,
 #Contact-form div input:focus{
     border:0.5px solid  wheat;
+    background-color:#4b4c52 ;
 }
 
 ::placeholder{
@@ -549,10 +550,13 @@ textarea {
     font-size: 16px;
     margin-top: 10px;
     width: 100%;
+    resize: none;
+    color: wheat;
 }
 textarea:hover,
 textarea :focus{
-    border:0.5px solid  wheat;
+    border:1px solid  wheat;
+    background-color:#4b4c52 ;
 }
 #submit{
     padding: 17px 40px;
@@ -663,9 +667,7 @@ textarea :focus{
         #BE{
             height: 100%;
             width: 100%;
-            background-color: #040449;
             margin: 0px;
-            color: white;
             font-size: 11px;
             
         }
@@ -704,7 +706,7 @@ textarea :focus{
         }
         #about-left ul{
             font-size: 15px;
-          
+
         
         }
         #about-right p {
