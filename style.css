@@ -408,8 +408,12 @@ h1{
     width: 350px;
     border: 3px solid ;
     margin: 30px;
-}
 
+}
+.project-section img{
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -429,6 +433,7 @@ h1{
     justify-content:center;
     align-content: space-evenly;
     border-radius: 20px;
+    margin-block: 15px;
     
 }
 #BE{
@@ -466,7 +471,29 @@ h1{
 .Active-color{
     color: azure;
 }
-
+#certification-section{
+    width: 100%;
+    height: 100%;
+    background-color:#26262c;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.Certification-tab {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 10px solid rgba(255, 255, 255, 0.029);
+    border-radius: 20px;
+}
+.Certification-tab a{
+    text-decoration:none;
+    color: wheat;
+}
+.Certification-tab img{
+    width: 100px;
+    margin: 10px;
+}
 /* Section for Skills */
 #skills{
     
