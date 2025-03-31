@@ -477,21 +477,32 @@ h1{
     background-color:#26262c;
     border-radius: 20px;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .Certification-tab {
-    margin: 5px;
+    margin-block: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
     border: 10px solid rgba(255, 255, 255, 0.029);
     border-radius: 20px;
+
+}
+
+.Certification-tab div{
+    padding-left: 15px;
 }
 .Certification-tab a{
     text-decoration:none;
     color: wheat;
+    font-style: italic;
 }
 .Certification-tab img{
     width: 100px;
+    height: 100px;
     margin: 10px;
 }
 /* Section for Skills */
@@ -735,6 +746,12 @@ textarea :focus{
         }
         #course-duration{
             font-size: 13px;
+        }
+        #certification-section{
+           
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
         .Section{
             
