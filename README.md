@@ -90,21 +90,21 @@ Below are real screenshots from the live portfolio website. These images are loc
     </tr>
     <tr>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155300.jpg" alt="Screenshot 5" width="250px"><br>
+        <img src="Screenshot/Screenshot 2025-03-29 155300.png" alt="Screenshot 5" width="250px"><br>
         <b>💻 Education</b>
       </td>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155316.jpg" alt="Screenshot 6" width="250px"><br>
-        <b>🧩 Projects</b>
+        <img src="Screenshot/Screenshot 2025-03-29 155316.png" alt="Screenshot 6" width="250px"><br>
+        <b>🧩 Skills</b>
       </td>
       <td align="center">
-        <img src="Screenshot/WhatsApp%20Image%202025-03-23%20at%2019.24.35_ee98220b.jpg" alt="Screenshot 7" width="250px"><br>
-        <b>🌐 Extra View 3</b>
+        <img src="Screenshot/Screenshot 2025-04-06 154738.png" alt="Screenshot 7" width="250px"><br>
+        <b>🌐 Projects</b>
       </td>
-      <td align="center">
+      <!-- <td align="center">
         <img src="Screenshot/WhatsApp%20Image%202025-03-23%20at%2019.24.36_2834065f.jpg" alt="Screenshot 8" width="250px"><br>
-        <b>🧠 Extra View 4</b>
-      </td>
+        <b>🧠 Extra View 4</b> -->
+      <!-- </td> -->
     </tr>
   </table>
 </div>
