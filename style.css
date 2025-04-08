@@ -205,6 +205,10 @@ h1{
     text-align: center;
     margin: 0px;
 }
+#Heart{
+    color: red;
+
+}
 #home{
     margin: 20px;
     margin-bottom: 0px;
