@@ -11,7 +11,7 @@ navLinks.forEach(link => {
     const a = link.querySelector("a"); // Get the anchor tag inside the li
 
     // Check if the clicked li contains the resume link
-    if (a.getAttribute("href") === "resume/RESUME.pdf") {
+    if (a.getAttribute("href") === "resume/Resume.pdf") {
       // It's the resume link, do nothing special and let the browser handle it
       if (menu.classList.contains("active")) {
           menu.classList.remove("active");
